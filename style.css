@@ -1,0 +1,283 @@
+<<<<<<< HEAD
+body {
+    background-color: #eeeeee;
+    margin-top: 70px;
+}
+
+.grid {
+    width: 1180px;  
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #0d0b8a;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+.grid #quest {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.grid #question {
+    text-align: center;
+}
+
+#start {
+    text-align: center;
+    vertical-align: middle;
+    margin: 290px;
+}
+
+#srtBtn {
+    background-color: #0d0b8a;
+    width: 375px;
+    height: 120px;
+    font-size: 50px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 80px;
+}
+
+#srtBtn:hover {
+    cursor: pointer;
+    background-color: #8483cc;
+}
+
+#button {
+    display: inline-block;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+#bt0, #bt1, #bt2, #bt3 {
+    background-color: #555497;
+    width: 225px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 30px 10px 30px;
+    align-content: center;
+    display: inline ;
+    padding: 10px;
+}
+
+#bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+    cursor: pointer;
+    background-color: #0d0b8a; 
+}
+
+#bt0 focus, #bt1 focus, #bt2 focus, #bt3 focus {
+    outline: 0;
+}
+
+#progress {
+    text-align: right;
+    color: #2b2b2b;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#progBar {
+    appearance: none;
+    width: 100%;
+    height: 10px;
+}
+
+#progBar::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progBar::-webkit-progress-value {
+    border-radius:10px;
+    background: #1d11c9;
+}
+
+#score {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 220px;
+}
+
+#restartBtn {
+    width: 320px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #0d0b8a;
+    border: 1px solid #1D3C6A;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#restartBtn:hover {
+    cursor: pointer;
+    background-color: #555497; 
+}
+
+#restart {
+    text-align: right;
+}
+=======
+body {
+    background-color: #eeeeee;
+    margin-top: 70px;
+}
+
+.grid {
+    width: 1180px;  
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #0d0b8a;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+.grid #quest {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.grid #question {
+    text-align: center;
+}
+
+#start {
+    text-align: center;
+    vertical-align: middle;
+    margin: 290px;
+}
+
+#srtBtn {
+    background-color: #0d0b8a;
+    width: 375px;
+    height: 120px;
+    font-size: 50px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 80px;
+}
+
+#srtBtn:hover {
+    cursor: pointer;
+    background-color: #8483cc;
+}
+
+#button {
+    display: inline-block;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+#bt0, #bt1, #bt2, #bt3 {
+    background-color: #555497;
+    width: 225px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 30px 10px 30px;
+    align-content: center;
+    display: inline ;
+    padding: 10px;
+}
+
+#bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+    cursor: pointer;
+    background-color: #0d0b8a; 
+}
+
+#bt0 focus, #bt1 focus, #bt2 focus, #bt3 focus {
+    outline: 0;
+}
+
+#progress {
+    text-align: right;
+    color: #2b2b2b;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 5px;
+}
+
+#progBar {
+    appearance: none;
+    width: 100%;
+    height: 10px;
+}
+
+#progBar::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progBar::-webkit-progress-value {
+    border-radius:10px;
+    background: #1d11c9;
+}
+
+#score {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 220px;
+}
+
+#restartBtn {
+    width: 320px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #0d0b8a;
+    border: 1px solid #1D3C6A;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#restartBtn:hover {
+    cursor: pointer;
+    background-color: #555497; 
+}
+
+#restart {
+    text-align: right;
+}
+>>>>>>> 34d0f7dfcd0ef821a1ac7c1904c735fff67477cd
